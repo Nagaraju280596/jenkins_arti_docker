@@ -1,2 +1,2 @@
-FROM tomcat:8
-COPY target/*.war /opt/tomcat/webapps/
+FROM tomcat:9-alpine
+COPY /opt/SampleAutoDeploy/target/*.war /opt/tomcat/webapps/
